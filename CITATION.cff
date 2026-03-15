@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "Machine Learning for Dog Abandonment Prevention: Prediction, Explanation, and Recommendations"
+message: "If you use this project, please cite it using this file and link back to the repository."
+type: software
+authors:
+  - family-names: Malik
+    given-names: Ibrahim
+license: MIT
+keywords:
+  - machine-learning
+  - ml-engineering
+  - animal-welfare
+  - decision-support
+  - classification

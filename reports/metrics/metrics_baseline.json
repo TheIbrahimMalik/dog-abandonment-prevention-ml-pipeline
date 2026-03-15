@@ -1,0 +1,33 @@
+{
+  "binary": {
+    "pr_auc": 0.09929025355395517,
+    "f1": 0.14903784063024667,
+    "precision": 0.08655865586558656,
+    "recall": 0.5357474466109564,
+    "best_threshold": 0.5803050121305877,
+    "best_threshold_f1": 0.15896394108644873,
+    "best_threshold_precision": 0.10940230688570429,
+    "best_threshold_recall": 0.2906220984215413
+  },
+  "multiclass": {
+    "accuracy": 0.47804878048780486,
+    "macro_f1": 0.3873687267783965
+  },
+  "binary_refined": {
+    "ap": 0.09735168959033061,
+    "f1_at_0.5": 0.15758678975425822,
+    "precision_at_0.5": 0.09162382824312065,
+    "recall_at_0.5": 0.5626740947075209,
+    "best_threshold": 0.5347464084625244,
+    "best_threshold_f1": 0.16092726356429293,
+    "best_threshold_precision": 0.09823625922887613,
+    "best_threshold_recall": 0.4447539461467038,
+    "estimator": "XGBClassifier",
+    "scale_pos_weight": 9.4567560099475
+  },
+  "multiclass_refined": {
+    "accuracy": 0.46747967479674796,
+    "macro_f1": 0.3159977865753008,
+    "estimator": "RandomForest"
+  }
+}

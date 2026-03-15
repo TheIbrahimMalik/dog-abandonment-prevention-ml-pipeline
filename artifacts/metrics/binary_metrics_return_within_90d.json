@@ -1,0 +1,64 @@
+{
+  "run_utc": "2026-03-05T20:27:45+00:00",
+  "dataset_rows": 48097,
+  "horizon_days": 90,
+  "split": {
+    "val_frac": 0.1,
+    "test_frac": 0.2
+  },
+  "val": {
+    "at_0.5": {
+      "threshold": 0.5,
+      "pr_auc": 0.16249284758946686,
+      "f1": 0.2551233793391886,
+      "precision": 0.16730663741086121,
+      "recall": 0.5369718309859155
+    },
+    "best_f1": {
+      "threshold": 0.5095708470573538,
+      "pr_auc": 0.16249284758946686,
+      "f1": 0.258587786259542,
+      "precision": 0.17735602094240838,
+      "recall": 0.477112676056338
+    }
+  },
+  "test": {
+    "at_0.5": {
+      "threshold": 0.5,
+      "pr_auc": 0.12093808887848978,
+      "f1": 0.18609406952965235,
+      "precision": 0.11989459815546773,
+      "recall": 0.4155251141552511
+    },
+    "best_f1": {
+      "threshold": 0.5095708470573538,
+      "pr_auc": 0.12093808887848978,
+      "f1": 0.18600531443755536,
+      "precision": 0.12544802867383512,
+      "recall": 0.3595890410958904
+    }
+  },
+  "features": {
+    "categorical": [
+      "intake_type_intake",
+      "intake_condition_intake",
+      "sex",
+      "altered",
+      "breed_primary",
+      "colour_primary",
+      "outcome_subtype_outcome"
+    ],
+    "numeric": [
+      "days_to_adoption",
+      "age_days",
+      "adoption_month",
+      "adoption_dow",
+      "is_mix"
+    ]
+  },
+  "model": "LogisticRegression(saga, class_weight=balanced, onehot)",
+  "bucketing": {
+    "top_n_breeds": 50,
+    "top_n_colours": 20
+  }
+}

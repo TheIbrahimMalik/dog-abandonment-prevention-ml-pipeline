@@ -1,0 +1,24 @@
+{
+  "run_utc": "2026-03-05T20:28:14+00:00",
+  "horizon_days": 90,
+  "min_reason_count": 50,
+  "classes": [
+    "Other",
+    "Owner Surrender",
+    "Public Assist",
+    "Stray"
+  ],
+  "val": {
+    "accuracy": 0.9044117647058824,
+    "macro_f1": 0.23745173745173745
+  },
+  "test": {
+    "accuracy": 0.8704044117647058,
+    "macro_f1": 0.23267813267813267
+  },
+  "model": "LogisticRegression(lbfgs, onehot)",
+  "bucketing": {
+    "top_n_breeds": 50,
+    "top_n_colours": 20
+  }
+}

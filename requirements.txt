@@ -1,0 +1,15 @@
+# Core
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+
+# Modeling & metrics
+scikit-learn>=1.3
+scipy>=1.10
+joblib>=1.3
+
+# Optional (used in your refined binary model; code falls back if missing)
+xgboost>=1.7
+
+# Windows/mac timezone data (pandas timezones like "America/Chicago")
+tzdata>=2023.3

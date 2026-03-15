@@ -1,0 +1,13 @@
+column,missing_frac,dtype,missing_pct
+intake_datetime,0.6002347363818379,datetime64[ns],60.02
+sex_upon_intake,5.753342692104112e-06,object,0.0
+age_upon_intake,0.0,object,0.0
+animal_id,0.0,object,0.0
+animal_type,0.0,object,0.0
+breed,0.0,object,0.0
+color,0.0,object,0.0
+found_location,0.0,object,0.0
+intake_condition,0.0,object,0.0
+intake_monthyear,0.0,datetime64[ns],0.0
+intake_type,0.0,object,0.0
+name,0.0,object,0.0

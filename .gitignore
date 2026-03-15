@@ -1,0 +1,56 @@
+# =========================
+# Python / packaging
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Secrets / credentials (never commit)
+.env
+.env.*
+**/.aws/
+**/*secret*
+**/*token*
+**/*key*
+**/*password*
+*.pem
+# Data (ignore full datasets, allow small samples)
+data/raw/*
+!data/raw/sample_*.csv
+data/processed/*
+!data/processed/sample_*.csv
+# Models (ignore artefacts; allow explicit sample artefacts if you want)
+models/*
+!models/sample_*.pkl
+!models/sample_*.joblib
+# Outputs / artefacts
+logs/
+*.log
+outputs/
+# Legacy artefacts
+legacy/**/models/*
+# Training artefacts
+artifacts/models/
+data/processed/
+!artifacts/metrics/
+# Local outputs

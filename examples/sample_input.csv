@@ -1,0 +1,4 @@
+animal_id,adoption_time,days_to_adoption,intake_type_intake,intake_condition_intake,sex_upon_intake_intake,age_upon_intake_intake,breed_intake,color_intake,outcome_subtype_outcome
+A000001,2024-06-15 12:00:00,12.0,Stray,Normal,Neutered Male,2 years,Labrador Retriever Mix,Black/White,
+A000002,2024-11-02 09:30:00,3.0,Owner Surrender,Injured,Intact Female,6 months,Chihuahua Shorthair Mix,Brown,
+A000003,2025-01-20 15:45:00,25.0,Public Assist,Normal,Spayed Female,7 years,Pit Bull Mix,White/Tan,

@@ -1,0 +1,13 @@
+column,missing_frac,dtype,missing_pct
+outcome_datetime,1.0,datetime64[ns],100.0
+outcome_subtype,0.5415911379657603,object,54.16
+outcome_type,0.00026471011365271184,object,0.03
+age_upon_outcome,5.179110919292188e-05,object,0.01
+sex_upon_outcome,5.754567688102431e-06,object,0.0
+animal_id,0.0,object,0.0
+animal_type,0.0,object,0.0
+breed,0.0,object,0.0
+color,0.0,object,0.0
+date_of_birth,0.0,datetime64[ns],0.0
+name,0.0,object,0.0
+outcome_monthyear,0.0,datetime64[ns],0.0
